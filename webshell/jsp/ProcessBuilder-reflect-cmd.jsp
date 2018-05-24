@@ -16,7 +16,7 @@
 
 <%!
     public static String getPicture(String str) throws Exception {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         BASE64Decoder decoder = new BASE64Decoder();
         BASE64Encoder encoder = new BASE64Encoder();
         String fileSeparator = String.valueOf(java.io.File.separatorChar);
