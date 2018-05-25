@@ -1,6 +1,6 @@
 ## Webshell-Detect-Bypass
 
-**此项目存放我绕过一些专业工具和平台的Webshell检测的一些文章和研究，顺带放些文章中出现的免杀Webshell脚本。**
+**此项目用来存放我绕过专业工具检测的Webshell研究文章和免杀的Webshell源码.**
 
 
 
@@ -19,6 +19,8 @@
 - #### [php](https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/php)
 
 - #### [jsp](https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/jsp)
+
+- #### [asp](https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/asp)
 
 
 
