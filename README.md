@@ -4,6 +4,16 @@
 
 
 
+### 免责声明
+
+```
+1. 在对方未授权的情况下，直接或间接利用本项目涉及到的 webshell 研究样本攻击目标是违法行为.
+2. 本项目涉及到的 webshell 仅为安全研究和授权情况下使用，其使用人员有责任和义务遵守当地法律条规.
+3. 本项目涉及到的 webshell 样本及文章仅为促进安全防御研究使用，研究人员对因误用该程序造成的资产损坏和损失概不负责.
+```
+
+
+
 ### Articles
 
 - [**php一句话木马检测绕过研究**](https://github.com/LandGrey/webshell-detect-bypass/tree/master/docs/php-webshell-detect-bypass/php-webshell-detect-bypass.md)
