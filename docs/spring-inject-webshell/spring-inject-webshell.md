@@ -32,7 +32,7 @@ Spring 框架中，`BeanFactory` 接口是 `Spring`  **IoC容器** 的实际代�
 
 从下面的`接口继承关系图`中可以看出，`ApplicationContext` 接口继承了 `BeanFactory` 接口，并通过继承其他接口进一步扩展了基本容器的功能。
 
-![](images/ApplicationContext-extends-interfaces.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/ApplicationContext-extends-interfaces.png)
 
 
 
@@ -42,7 +42,7 @@ Spring 框架中，`BeanFactory` 接口是 `Spring`  **IoC容器** 的实际代�
 
 另外，如下图，还有一堆各式各样的 context 继承了 `ApplicationContext` 接口，太繁杂不展开描述，仅供参考。
 
-![](images/ApplicationContext-subtypes.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/ApplicationContext-subtypes.png)
 
 
 
@@ -121,7 +121,7 @@ Spring 框架中，`BeanFactory` 接口是 `Spring`  **IoC容器** 的实际代�
 
 从下面的继承关系图中可以发现： `DispatcherServlet` 从本质上来讲是一个 `Servlet`（扩展了 `HttpServlet` )。
 
-![](images/DispacherServlet.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/DispacherServlet.png)
 
 
 
@@ -184,7 +184,7 @@ WebApplicationContext context = ContextLoader.getCurrentWebApplicationContext();
 
 注意这里及下面实现方法中的 `Root WebApplicationContext` 都是后文的一个伏笔。
 
-![](images/getCurrentWebApplicationContext.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/getCurrentWebApplicationContext.png)
 
 
 
@@ -220,7 +220,7 @@ public static WebApplicationContext getWebApplicationContext(ServletRequest requ
 
 方法，通过 `ServletRequest` 类的实例来获得 `WebApplicationContext` 。
 
-如下图，可以发现此方法获得的是一个名叫 `dispatcherServlet-servlet` 的 `Child WebApplicationContext`。这个 `dispatcherServlet-servlet` 其实是上面配置中 `dispatcherServlet-servlet.xml` 的文件名。![](images/RequestContextUtils.png)
+如下图，可以发现此方法获得的是一个名叫 `dispatcherServlet-servlet` 的 `Child WebApplicationContext`。这个 `dispatcherServlet-servlet` 其实是上面配置中 `dispatcherServlet-servlet.xml` 的文件名。![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/RequestContextUtils.png)
 
 
 
@@ -234,7 +234,7 @@ public static WebApplicationContext getWebApplicationContext(ServletRequest requ
 
 其中 `org.springframework.web.servlet.DispatcherServlet.CONTEXT` 和 `org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE` 属性名中都存放着一个名叫 `dispatcherServlet-servlet` 的 `Child WebApplicationContext` 。
 
-![](images/currentRequestAttributes.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/currentRequestAttributes.png)
 
 
 
@@ -269,7 +269,7 @@ public class HelloController {
 
 如下图：**Spring 3.2.5** 处理 URL 映射相关的类都实现了 `HandlerMapping` 接口。
 
-![](images/HandlerMapping.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/HandlerMapping.png)
 
 
 
@@ -454,11 +454,11 @@ public class SSOLogin {
 
 
 
-![](images/response-01.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/response-01.png)
 
 
 
-![](images/response-02.png)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/response-02.png)
 
 
 
@@ -497,7 +497,7 @@ public class SSOLogin {
 
 本文技术的具体实现已集成到实验室内部的 Webshell 管理工具中，下面的动态图片演示了在 `SpringMvc` 环境中向内存注入一个自定义 URL 的 Webshell 操作。
 
-![](images/video.gif)
+![](https://raw.githubusercontent.com/LandGrey/webshell-detect-bypass/master/docs/spring-inject-webshell/images/video.gif)
 
 
 
