@@ -21,6 +21,7 @@
 - [**构造免杀的asp一句话木马**](https://github.com/LandGrey/webshell-detect-bypass/tree/master/docs/asp-webshell-detect-bypass/asp-webshell-detect-bypass.md)
 - [**菜刀HTTP流量中转代理过WAF**](https://github.com/LandGrey/webshell-detect-bypass/tree/master/docs/china-chopper-http-proxy/china-chopper-http-proxy.md)
 - [**基于内存 Webshell 的无文件攻击技术研究**](https://github.com/LandGrey/webshell-detect-bypass/tree/master/docs/spring-inject-webshell/spring-inject-webshell.md)
+- [**利用 intercetor 注入 spring 内存 webshell**](https://github.com/LandGrey/webshell-detect-bypass/tree/master/docs/inject-interceptor-hide-webshell/inject-interceptor-hide-webshell.md)
 
 
 
